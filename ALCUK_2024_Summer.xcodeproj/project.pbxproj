@@ -29,6 +29,13 @@
 		3D5A4DC52C32AFFF00CEF75E /* templete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete.cpp; sourceTree = "<group>"; };
 		3D5A4DC62C32B03F00CEF75E /* Y_10989.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Y_10989.cpp; sourceTree = "<group>"; };
 		3DB855952C36924300131D07 /* W_3052.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = W_3052.cpp; sourceTree = "<group>"; };
+		3DEED4142C4008A9003D8ADD /* F_17262.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = F_17262.cpp; sourceTree = "<group>"; };
+		3DEED4152C4008A9003D8ADD /* H_1718.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = H_1718.cpp; sourceTree = "<group>"; };
+		3DEED4162C4008A9003D8ADD /* N_15761.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_15761.cpp; sourceTree = "<group>"; };
+		3DEED4172C4008A9003D8ADD /* O_11497.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = O_11497.cpp; sourceTree = "<group>"; };
+		3DEED4182C4008A9003D8ADD /* P_1946.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = P_1946.cpp; sourceTree = "<group>"; };
+		3DEED4192C4008A9003D8ADD /* Q_17390.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q_17390.cpp; sourceTree = "<group>"; };
+		3DEED41A2C4008A9003D8ADD /* templete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 		3D5A4DBC2C32AF9D00CEF75E /* ALCUK_2024_Summer */ = {
 			isa = PBXGroup;
 			children = (
+				3DEED41B2C4008A9003D8ADD /* week2 */,
 				3D5A4DC42C32AFAA00CEF75E /* week1 */,
 			);
 			path = ALCUK_2024_Summer;
@@ -77,6 +85,21 @@
 			);
 			path = week1;
 			sourceTree = "<group>";
+		};
+		3DEED41B2C4008A9003D8ADD /* week2 */ = {
+			isa = PBXGroup;
+			children = (
+				3DEED4142C4008A9003D8ADD /* F_17262.cpp */,
+				3DEED4152C4008A9003D8ADD /* H_1718.cpp */,
+				3DEED4162C4008A9003D8ADD /* N_15761.cpp */,
+				3DEED4172C4008A9003D8ADD /* O_11497.cpp */,
+				3DEED4182C4008A9003D8ADD /* P_1946.cpp */,
+				3DEED4192C4008A9003D8ADD /* Q_17390.cpp */,
+				3DEED41A2C4008A9003D8ADD /* templete.cpp */,
+			);
+			name = week2;
+			path = ALCUK_2024_Summer/week2;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
