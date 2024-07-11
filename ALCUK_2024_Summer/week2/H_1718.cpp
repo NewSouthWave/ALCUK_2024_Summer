@@ -5,70 +5,73 @@
 #include <cmath>
 #include <utility>
 using namespace std;
-//문제:   https://www.acmicpc.net/problem/1946
+//문제:   https://www.acmicpc.net/problem/1718
 
 /**
  
- 서류점수와 면접점수를 pair vector에 저장하여 서류 점수 순으로 정렬하고
- 앞뒤 사람의 면접 점수를 비교하여 면접점수가 앞선 사람보다 뒤쳐지면 선발되지 않는 것으로 전체 인원에서 뺀다
- 
- 이때 가장 높은 순위 값을 저장하며 비교해나간다. 그래야 앞뒤로 붙어있진 않지만 특정 지원자보다 순위가 둘다 낮은
- 지원자를 가려낼 수 있다
+
 
  */
 
-
-void EmployFunc (vector<pair<int, int>>v,int n){
+void decodeFunc(string plainTxt, string passKey) {
     
-    int maxEmploy = n;
+    vector<char>encryptedTxt;   // 암호문 저장 벡터
     
-    int highRank = v[0].second;
-    for (int i = 0; i < v.size(); i++) {
-        if(highRank < v[i].second) {   // 면접 점수도 뒤떨어지는 경우
-            maxEmploy -= 1;
-        } else {
-            highRank = v[i].second; //  가장 높은 순위를 저장
+    // 암호화 키의 길이가 평문 이상 경우
+    if(passKey.length() >= plainTxt.length()) {
+        for (int i = 0; i < passKey.length(); i++) {
+            if(plainTxt[i] == ' ') {
+                encryptedTxt.push_back(32);
+                continue;
+            }
+            int keyNum = passKey[i] - 96;   // 알파벳에서의 순서
+            if(plainTxt[i] - keyNum < 97) { // a 이전의 알파벳인 경우
+                encryptedTxt.push_back(plainTxt[i]-keyNum + 26);
+            } else {
+                encryptedTxt.push_back(plainTxt[i]-keyNum);
 
+            }
+            
+        }} else {    // 평문의 길이가 암호화 키 이상인 경우
+            for (int i = 0; i < plainTxt.length(); i++) {
+                if(plainTxt[i] == ' ') {
+                    encryptedTxt.push_back(32);
+                    continue;
+                }
+                int keyNum = passKey[i % passKey.length()] - 96;
+                if(plainTxt[i] - keyNum < 97) {
+                    encryptedTxt.push_back(plainTxt[i]-keyNum + 26);
+                } else {
+                    encryptedTxt.push_back(plainTxt[i]-keyNum);
+                }
+                
+            }
         }
+    
+    for (int i = 0; i < encryptedTxt.size(); i++) {
+        cout << encryptedTxt[i];
     }
-    
-    cout << maxEmploy << "\n";
-    
+    cout << endl;
 }
 
-bool compareFunc(pair<int, int>a, pair<int, int>b) { //  pair first 기준 오름차순 정렬
-    return a.first < b.first;
-}
 
 int main(){
     ios::sync_with_stdio(false); //동기화 해제
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int t;
-    cin >> t;
+    string plainTxt, passKey;
     
-    for (int i = 0; i < t; i++) {
-        vector<pair<int, int>>v;
-        int n;
-        cin >> n;
-        
-        for (int j = 0; j < n; j++) {
-            int docuScore, interviewScore;
-            cin >> docuScore >> interviewScore;
-
-            
-            v.push_back(make_pair(docuScore, interviewScore));
-            
-        }
-        sort(v.begin(), v.end(), compareFunc);  // pair first 기준으로 정렬
-        
-        EmployFunc(v,n);
-    }
+    getline(cin, plainTxt); // 공백을 포함하여 한 줄 전체 입력 가능
+    getline(cin, passKey);
+    
+    
+    decodeFunc(plainTxt,passKey);
+    
 
     return 0;
 }
 
 
 
-// 참고 링크:   https://sanghyu.tistory.com/36
+// 참고 링크:
