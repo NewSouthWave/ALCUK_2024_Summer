@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DB855962C36924300131D07 /* W_3052.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DB855952C36924300131D07 /* W_3052.cpp */; };
+		3DEED41D2C400AC3003D8ADD /* J_1543.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DEED41C2C400AC3003D8ADD /* J_1543.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +36,7 @@
 		3DEED4182C4008A9003D8ADD /* P_1946.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = P_1946.cpp; sourceTree = "<group>"; };
 		3DEED4192C4008A9003D8ADD /* Q_17390.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q_17390.cpp; sourceTree = "<group>"; };
 		3DEED41A2C4008A9003D8ADD /* templete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete.cpp; sourceTree = "<group>"; };
+		3DEED41C2C400AC3003D8ADD /* J_1543.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = J_1543.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 				3DEED4182C4008A9003D8ADD /* P_1946.cpp */,
 				3DEED4192C4008A9003D8ADD /* Q_17390.cpp */,
 				3DEED41A2C4008A9003D8ADD /* templete.cpp */,
+				3DEED41C2C400AC3003D8ADD /* J_1543.cpp */,
 			);
 			name = week2;
 			path = ALCUK_2024_Summer/week2;
@@ -158,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB855962C36924300131D07 /* W_3052.cpp in Sources */,
+				3DEED41D2C400AC3003D8ADD /* J_1543.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
