@@ -1,8 +1,27 @@
-//
-//  templete.cpp
-//  ALCUK_2024_Summer
-//
-//  Created by Nam on 7/15/24.
-//
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+using namespace std;
+//문제:
 
-#include <stdio.h>
+/**
+ 
+
+
+ */
+
+int main(){
+    ios::sync_with_stdio(false); //동기화 해제
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    
+
+    return 0;
+}
+
+
+
+// 참고 링크:
