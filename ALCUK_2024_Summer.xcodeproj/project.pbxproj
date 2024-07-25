@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D44A03B2C5232D000743A85 /* A_10870.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D44A03A2C5232D000743A85 /* A_10870.cpp */; };
+		3D44A03D2C5239C300743A85 /* B_10872.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D44A03C2C5239C300743A85 /* B_10872.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +27,7 @@
 		3D2EBB782C4DE886000564BD /* R_15970.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = R_15970.cpp; sourceTree = "<group>"; };
 		3D2EBB7A2C4DF683000564BD /* S_1107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = S_1107.cpp; sourceTree = "<group>"; };
 		3D44A03A2C5232D000743A85 /* A_10870.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A_10870.cpp; sourceTree = "<group>"; };
+		3D44A03C2C5239C300743A85 /* B_10872.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B_10872.cpp; sourceTree = "<group>"; };
 		3D497C5C2C44AE6B00B47F0E /* templete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete.cpp; sourceTree = "<group>"; };
 		3D497C5E2C44AF1E00B47F0E /* N_1268.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_1268.cpp; sourceTree = "<group>"; };
 		3D497C602C44C7FC00B47F0E /* O_1347.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = O_1347.cpp; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				3D44A03A2C5232D000743A85 /* A_10870.cpp */,
+				3D44A03C2C5239C300743A85 /* B_10872.cpp */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -194,7 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D44A03B2C5232D000743A85 /* A_10870.cpp in Sources */,
+				3D44A03D2C5239C300743A85 /* B_10872.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
