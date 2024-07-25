@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D44A03D2C5239C300743A85 /* B_10872.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D44A03C2C5239C300743A85 /* B_10872.cpp */; };
+		3D44A03F2C523C9000743A85 /* D_13458.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D44A03E2C523C9000743A85 /* D_13458.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 		3D2EBB7A2C4DF683000564BD /* S_1107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = S_1107.cpp; sourceTree = "<group>"; };
 		3D44A03A2C5232D000743A85 /* A_10870.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A_10870.cpp; sourceTree = "<group>"; };
 		3D44A03C2C5239C300743A85 /* B_10872.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B_10872.cpp; sourceTree = "<group>"; };
+		3D44A03E2C523C9000743A85 /* D_13458.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = D_13458.cpp; sourceTree = "<group>"; };
+		3D44A0402C5241D000743A85 /* Reference */ = {isa = PBXFileReference; lastKnownFileType = text; name = Reference; path = ALCUK_2024_Summer/Reference; sourceTree = SOURCE_ROOT; };
 		3D497C5C2C44AE6B00B47F0E /* templete.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete.cpp; sourceTree = "<group>"; };
 		3D497C5E2C44AF1E00B47F0E /* N_1268.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = N_1268.cpp; sourceTree = "<group>"; };
 		3D497C602C44C7FC00B47F0E /* O_1347.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = O_1347.cpp; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 		3D5A4DC62C32B03F00CEF75E /* Y_10989.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Y_10989.cpp; sourceTree = "<group>"; };
 		3D9CA7002C4D4331001A243F /* Q_9020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q_9020.cpp; sourceTree = "<group>"; };
 		3D9CA7022C4D5130001A243F /* templete_basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = templete_basic.cpp; sourceTree = "<group>"; };
-		3D9CA7032C4D519A001A243F /* measure_execution_time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = measure_execution_time.cpp; sourceTree = "<group>"; };
+		3D9CA7032C4D519A001A243F /* measure_exec_time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = measure_exec_time.cpp; sourceTree = "<group>"; };
 		3DB855952C36924300131D07 /* W_3052.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = W_3052.cpp; sourceTree = "<group>"; };
 		3DEED4142C4008A9003D8ADD /* F_17262.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = F_17262.cpp; sourceTree = "<group>"; };
 		3DEED4152C4008A9003D8ADD /* H_1718.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = H_1718.cpp; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				3D44A03A2C5232D000743A85 /* A_10870.cpp */,
 				3D44A03C2C5239C300743A85 /* B_10872.cpp */,
+				3D44A03E2C523C9000743A85 /* D_13458.cpp */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -106,7 +109,8 @@
 				3DEED41B2C4008A9003D8ADD /* week2 */,
 				3D5A4DC42C32AFAA00CEF75E /* week1 */,
 				3D9CA7022C4D5130001A243F /* templete_basic.cpp */,
-				3D9CA7032C4D519A001A243F /* measure_execution_time.cpp */,
+				3D9CA7032C4D519A001A243F /* measure_exec_time.cpp */,
+				3D44A0402C5241D000743A85 /* Reference */,
 			);
 			path = ALCUK_2024_Summer;
 			sourceTree = "<group>";
@@ -196,7 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D44A03D2C5239C300743A85 /* B_10872.cpp in Sources */,
+				3D44A03F2C523C9000743A85 /* D_13458.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
