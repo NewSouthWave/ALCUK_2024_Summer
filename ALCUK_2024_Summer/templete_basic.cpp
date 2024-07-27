@@ -4,13 +4,8 @@
 #include <algorithm>
 #include <cmath>
 using namespace std;
-//문제:
-
-/**
- 
 
 
- */
 
 int main(){
     ios::sync_with_stdio(false); //동기화 해제
@@ -22,6 +17,23 @@ int main(){
     return 0;
 }
 
+// MARK: - 문제 접근 및 로직
 
+//문제:
+
+/**
+ 
+
+
+ */
+
+
+// MARK: - 참고 링크
 
 // 참고 링크:
+
+/*
+ 
+ 
+ 
+ */
