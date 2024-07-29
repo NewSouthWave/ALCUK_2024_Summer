@@ -274,5 +274,37 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39C06AB4-6067-47CF-97FF-C7DE3BDF7DA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ALCUK_2024_Summer/week5_&#x1107;&#x116e;&#x11ab;&#x1112;&#x1161;&#x11af;&#x110c;&#x1165;&#x11bc;&#x1107;&#x1169;&#x11a8;/D_1074.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "793DE996-B1EF-4B56-9E4B-1A6D7F419364"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ALCUK_2024_Summer/week5_&#x1107;&#x116e;&#x11ab;&#x1112;&#x1161;&#x11af;&#x110c;&#x1165;&#x11bc;&#x1107;&#x1169;&#x11a8;/D_1074.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
