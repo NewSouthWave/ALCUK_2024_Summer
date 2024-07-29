@@ -17,3 +17,4 @@ start = clock(); //  측정 시작
 finish = clock();
 
 duration = (double)(finish - start) / CLOCKS_PER_SEC;   //  실행시간
+cout << "실행시간: " << fixed << duration << "s" << endl;
