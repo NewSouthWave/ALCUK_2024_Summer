@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D52E7042C61EC7A00FEE9C7 /* ETC_10773.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D52E7022C61EC7000FEE9C7 /* ETC_10773.cpp */; };
+		3D1ED5E92C6A24600007FF72 /* A_10815.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3D1ED5E82C6A24600007FF72 /* A_10815.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3D16F3ED2C32B75C00F7F8DA /* X_8958.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = X_8958.cpp; sourceTree = "<group>"; };
+		3D1ED5E82C6A24600007FF72 /* A_10815.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A_10815.cpp; sourceTree = "<group>"; };
 		3D2EBB782C4DE886000564BD /* R_15970.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = R_15970.cpp; sourceTree = "<group>"; };
 		3D2EBB7A2C4DF683000564BD /* S_1107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = S_1107.cpp; sourceTree = "<group>"; };
 		3D44A03A2C5232D000743A85 /* A_10870.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = A_10870.cpp; sourceTree = "<group>"; };
@@ -69,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1ED5E72C6A242C0007FF72 /* week7_이분탐색 */ = {
+			isa = PBXGroup;
+			children = (
+				3D1ED5E82C6A24600007FF72 /* A_10815.cpp */,
+			);
+			name = "week7_이분탐색";
+			path = "week7_이분탐색";
+			sourceTree = "<group>";
+		};
 		3D44A0392C5232B200743A85 /* week4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 		3D5A4DBC2C32AF9D00CEF75E /* ALCUK_2024_Summer */ = {
 			isa = PBXGroup;
 			children = (
+				3D1ED5E72C6A242C0007FF72 /* week7_이분탐색 */,
 				3DF449532C60618400D9D2E8 /* week6_자료구조 */,
 				3DBECBFC2C57224900030AC8 /* week5_분할정복 */,
 				3D44A0392C5232B200743A85 /* week4 */,
@@ -232,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D52E7042C61EC7A00FEE9C7 /* ETC_10773.cpp in Sources */,
+				3D1ED5E92C6A24600007FF72 /* A_10815.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
